@@ -6,7 +6,7 @@ let count = 0;
 
 addcount.addEventListener("click", incerementCounter);
 lowerCount.addEventListener("click", decerementCounter);
-
+//
 function incerementCounter() {
   count++;
   counter.innerHTML = count;
