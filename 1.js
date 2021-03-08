@@ -20,7 +20,7 @@ function incerementCounter() {
     fill: "forwards",
   });
 }
-
+//
 function decerementCounter() {
   count--;
   counter.innerHTML = count;
