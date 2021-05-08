@@ -6,7 +6,7 @@ let count = 0;
 
 addcount.addEventListener("click", incerementCounter);
 lowerCount.addEventListener("click", decerementCounter);
-//
+
 function incerementCounter() {
   count++;
   counter.innerHTML = count;
@@ -20,7 +20,7 @@ function incerementCounter() {
     fill: "forwards",
   });
 }
-//
+
 function decerementCounter() {
   count--;
   counter.innerHTML = count;
